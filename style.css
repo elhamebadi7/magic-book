@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+/* هدر */
+header {
+  background-color: #f5f5f5;
+  padding: 10px 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 60px;
+  border-radius: 10px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #9e3bba;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+/* سکشن اصلی */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 30px;
+  font-weight: bold;
+}
+
+.hero-text {
+  max-width: 50%;
+  line-height: 2;
+}
+
+.hero-text button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #9e3bba;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #7a2d94;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
